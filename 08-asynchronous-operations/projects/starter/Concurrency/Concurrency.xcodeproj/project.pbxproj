@@ -16,6 +16,7 @@
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
 		D2CC8F0F220890C50025B523 /* TiltShiftFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC8F0E220890C50025B523 /* TiltShiftFilter.swift */; };
 		D2CC8F11220C93EF0025B523 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC8F10220C93EF0025B523 /* ExampleViewController.swift */; };
+		DEAFFC3D26F4BC5700409328 /* NetworkImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAFFC3C26F4BC5700409328 /* NetworkImageOperation.swift */; };
 		F50C222622204FA1003E3283 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C222422204FA0003E3283 /* AsyncOperation.swift */; };
 		F50C222722204FA1003E3283 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = F50C222522204FA1003E3283 /* Photos.plist */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CC8F0E220890C50025B523 /* TiltShiftFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltShiftFilter.swift; sourceTree = "<group>"; };
 		D2CC8F10220C93EF0025B523 /* ExampleViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		DEAFFC3C26F4BC5700409328 /* NetworkImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageOperation.swift; sourceTree = "<group>"; };
 		F50C222422204FA0003E3283 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
 		F50C222522204FA1003E3283 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,9 +55,9 @@
 				D2A5F2021F4A9144005CD714 /* Concurrency */,
 				D2A5F2011F4A9144005CD714 /* Products */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 		};
 		D2A5F2011F4A9144005CD714 /* Products */ = {
 			isa = PBXGroup;
@@ -80,6 +82,7 @@
 				D2CC8F0E220890C50025B523 /* TiltShiftFilter.swift */,
 				D27437532211E33200B1E02F /* TiltShiftOperation.swift */,
 				D274374F2211DC9F00B1E02F /* TiltShiftTableViewController.swift */,
+				DEAFFC3C26F4BC5700409328 /* NetworkImageOperation.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				D27437522211DFBB00B1E02F /* PhotoCell.swift in Sources */,
 				D2CC8F0F220890C50025B523 /* TiltShiftFilter.swift in Sources */,
 				D2CC8F11220C93EF0025B523 /* ExampleViewController.swift in Sources */,
+				DEAFFC3D26F4BC5700409328 /* NetworkImageOperation.swift in Sources */,
 				D27437502211DC9F00B1E02F /* TiltShiftTableViewController.swift in Sources */,
 				D27437542211E33200B1E02F /* TiltShiftOperation.swift in Sources */,
 				F50C222622204FA1003E3283 /* AsyncOperation.swift in Sources */,
