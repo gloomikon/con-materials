@@ -15,6 +15,7 @@
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
 		D2CC8F0F220890C50025B523 /* TiltShiftFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC8F0E220890C50025B523 /* TiltShiftFilter.swift */; };
 		D2CC8F11220C93EF0025B523 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC8F10220C93EF0025B523 /* ExampleViewController.swift */; };
+		DEAFFC3B26F2268700409328 /* TiltShiftOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAFFC3A26F2268700409328 /* TiltShiftOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CC8F0E220890C50025B523 /* TiltShiftFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltShiftFilter.swift; sourceTree = "<group>"; };
 		D2CC8F10220C93EF0025B523 /* ExampleViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		DEAFFC3A26F2268700409328 /* TiltShiftOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltShiftOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +49,9 @@
 				D2A5F2021F4A9144005CD714 /* Concurrency */,
 				D2A5F2011F4A9144005CD714 /* Products */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 		};
 		D2A5F2011F4A9144005CD714 /* Products */ = {
 			isa = PBXGroup;
@@ -71,6 +73,7 @@
 				D27437512211DFBB00B1E02F /* PhotoCell.swift */,
 				D2CC8F0E220890C50025B523 /* TiltShiftFilter.swift */,
 				D274374F2211DC9F00B1E02F /* TiltShiftTableViewController.swift */,
+				DEAFFC3A26F2268700409328 /* TiltShiftOperation.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				D2CC8F0F220890C50025B523 /* TiltShiftFilter.swift in Sources */,
 				D2CC8F11220C93EF0025B523 /* ExampleViewController.swift in Sources */,
 				D27437502211DC9F00B1E02F /* TiltShiftTableViewController.swift in Sources */,
+				DEAFFC3B26F2268700409328 /* TiltShiftOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
